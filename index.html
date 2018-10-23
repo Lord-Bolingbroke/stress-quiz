@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Stress Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Stress Quiz</h1>
+      </div>
+      <h2>Answer these questions to find out your stress level</h2>
+      <form id="quiz">
+        <div class="form-group">
+          <p>Which of these condition have you been experiencing? Check all that apply to you.</p>
+          <input type="checkbox" name="stress-signs" value="sleep" id="sleep">Loss of sleep.<br>
+          <input type="checkbox" name="stress-signs" value="overwhelmed" id="overwhelmed">Feeling overwhelmed.<br>
+          <input type="checkbox" name="stress-signs" value="overthinking" id="overthinking">Overthinking.<br>
+          <input type="checkbox" name="stress-signs" value="focus" id="focus">Not being able to focus on basic activities.<br>
+        </div>
+        <button type="submit">Submit!</button>
+      </form>
+      <span id="stress-response">
+        <p>Our suggestion is:</p>
+      </span>
+    </div>
+  </body>
+</html>
